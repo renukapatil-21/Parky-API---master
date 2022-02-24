@@ -23,6 +23,6 @@ namespace ParkyWeb.Models
         public DifficultyType Difficulty { get; set; }
         public int NationalParkId { get; set; }
 
-        public NationalPark NationalPark { get; set; }
+        public NationalPark? NationalPark { get; set; }
     }
 }
